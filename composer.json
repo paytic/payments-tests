@@ -21,6 +21,7 @@
     "omnipay/tests": "^3"
   },
   "require-dev": {
-    "bytic/payments": "^1.0"
+    "bytic/payments": "^1.0",
+    "vlucas/phpdotenv": "^4.0"
   }
 }
