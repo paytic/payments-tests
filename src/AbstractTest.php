@@ -34,10 +34,10 @@ abstract class AbstractTest extends TestCase
             $httpRequest->query->replace($parameters['query']);
         }
         if (isset($parameters['POST'])) {
-            $httpRequest->query->replace($parameters['POST']);
+            $httpRequest->request->replace($parameters['POST']);
         }
         if (isset($parameters['request'])) {
-            $httpRequest->query->replace($parameters['request']);
+            $httpRequest->request->replace($parameters['request']);
         }
 
         return $httpRequest;
