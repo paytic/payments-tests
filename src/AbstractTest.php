@@ -26,9 +26,20 @@ abstract class AbstractTest extends TestCase
     {
         $httpRequest = HttpRequest::createFromGlobals();
         $parameters = require $path;
+        
+        if (isset($parameters['GET'])) {
+            $httpRequest->query->replace($parameters['GET']);
+        }
+        if (isset($parameters['query'])) {
+            $httpRequest->query->replace($parameters['query']);
+        }
+        if (isset($parameters['POST'])) {
+            $httpRequest->query->replace($parameters['POST']);
+        }
+        if (isset($parameters['request'])) {
+            $httpRequest->query->replace($parameters['request']);
+        }
 
-        $httpRequest->query->replace(isset($parameters['GET']) ? $parameters['GET'] : []);
-        $httpRequest->request->replace(isset($parameters['POST']) ? $parameters['POST'] : []);
         return $httpRequest;
     }
 
