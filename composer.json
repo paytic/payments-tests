@@ -18,7 +18,10 @@
   },
   "require": {
     "php": "^7.1|^8.0",
-    "omnipay/tests": "^3|^4"
+    "omnipay/tests": "^3|^4",
+    "bytic/http": "^1.0",
+    "bytic/translation": "^1.0",
+    "bytic/database": "^1.0"
   },
   "require-dev": {
     "bytic/payments": "^1.0",
