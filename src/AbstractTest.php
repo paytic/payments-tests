@@ -1,6 +1,6 @@
 <?php
 
-namespace ByTIC\Payments\Tests;
+namespace Paytic\Payments\Tests;
 
 use Omnipay\Common\Http\Client;
 use PHPUnit\Framework\TestCase;

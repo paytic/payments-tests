@@ -1,16 +1,16 @@
 <?php
 
-namespace ByTIC\Payments\Tests\Gateways;
+namespace Paytic\Payments\Tests\Gateways;
 
 use ByTIC\Common\Payments\Gateways\Gateway;
 use Omnipay\Common\Message\AbstractRequest;
 use ByTIC\Payments\Gateways\Manager as GatewaysManager;
 use ByTIC\Payments\Models\Methods\Types\CreditCards;
-use ByTIC\Payments\Tests\AbstractTest;
-use ByTIC\Payments\Tests\Fixtures\Records\BillingRecord;
-use ByTIC\Payments\Tests\Fixtures\Records\PaymentMethods\PaymentMethod;
-use ByTIC\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecord;
-use ByTIC\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecordManager;
+use Paytic\Payments\Tests\AbstractTest;
+use Paytic\Payments\Tests\Fixtures\Records\BillingRecord;
+use Paytic\Payments\Tests\Fixtures\Records\PaymentMethods\PaymentMethod;
+use Paytic\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecord;
+use Paytic\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecordManager;
 use Mockery as m;
 
 /**

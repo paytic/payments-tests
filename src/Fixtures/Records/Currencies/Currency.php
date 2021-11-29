@@ -1,13 +1,13 @@
 <?php
 
-namespace ByTIC\Payments\Tests\Fixtures\Records\Currencies;
+namespace Paytic\Payments\Tests\Fixtures\Records\Currencies;
 
 use ByTIC\Payments\Models\Currencies\Traits\CurrencyTrait;
 use Nip\Records\AbstractModels\Record;
 
 /**
  * Class Currency
- * @package ByTIC\Payments\Tests\Fixtures\Records\Currencies
+ * @package Paytic\Payments\Tests\Fixtures\Records\Currencies
  */
 class Currency extends Record
 {

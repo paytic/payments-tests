@@ -1,6 +1,6 @@
 <?php
 
-namespace ByTIC\Payments\Tests\Fixtures\Records;
+namespace Paytic\Payments\Tests\Fixtures\Records;
 
 use ByTIC\Payments\Models\BillingRecord\Traits\RecordTrait as BillingRecordTrait;
 use ByTIC\Common\Records\Traits\HasSerializedOptions\RecordTrait as HasSerializedOptions;

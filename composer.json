@@ -1,10 +1,10 @@
 {
-  "name": "bytic/payments-tests",
+  "name": "paytic/payments-tests",
   "type": "library",
   "license": "MIT",
   "description": "Payments tests utility for bytic payments library",
   "keywords": [],
-  "homepage": "https://github.com/bytic/payments-tests",
+  "homepage": "https://github.com/paytic/payments-tests",
   "authors": [
     {
       "name": "Gabriel Solomon",
@@ -13,12 +13,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "ByTIC\\Payments\\Tests\\": "src/"
+      "Paytic\\Payments\\Tests\\": "src/"
     }
   },
   "require": {
     "php": "^7.1",
-    "omnipay/tests": "^3"
+    "omnipay/tests": "^3|^4"
   },
   "require-dev": {
     "bytic/payments": "^1.0",

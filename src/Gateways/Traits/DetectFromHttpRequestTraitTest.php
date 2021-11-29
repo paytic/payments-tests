@@ -1,15 +1,15 @@
 <?php
 
-namespace ByTIC\Payments\Tests\Gateways\Traits;
+namespace Paytic\Payments\Tests\Gateways\Traits;
 
 use ByTIC\Payments\Gateways\Manager;
-use ByTIC\Payments\Tests\AbstractTest;
-use ByTIC\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecord;
-use ByTIC\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecordManager;
+use Paytic\Payments\Tests\AbstractTest;
+use Paytic\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecord;
+use Paytic\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecordManager;
 
 /**
  * Class DetectFromHttpRequestTraitTest
- * @package ByTIC\Payments\Tests\Gateways\Traits
+ * @package Paytic\Payments\Tests\Gateways\Traits
  */
 class DetectFromHttpRequestTraitTest extends AbstractTest
 {

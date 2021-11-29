@@ -1,16 +1,16 @@
 <?php
 
-namespace ByTIC\Payments\Tests\Gateways\Traits;
+namespace Paytic\Payments\Tests\Gateways\Traits;
 
 use ByTIC\Payments\Gateways\Providers\Mobilpay\Gateway as MobilpayGateway;
 use ByTIC\Payments\Gateways\Providers\Mobilpay\Message\CompletePurchaseRequest as MobilpayCompletePurchaseRequest;
 use ByTIC\Payments\Gateways\Providers\Paylike\Gateway as PaylikeGateway;
 use ByTIC\Omnipay\Paylike\Message\CompletePurchaseRequest as PaylikeCompletePurchaseRequest;
-use ByTIC\Payments\Tests\AbstractTest;
+use Paytic\Payments\Tests\AbstractTest;
 
 /**
  * Class OverwriteCompletePurchaseTraitTest
- * @package ByTIC\Payments\Tests\Gateways\Traits
+ * @package Paytic\Payments\Tests\Gateways\Traits
  */
 class OverwriteCompletePurchaseTraitTest extends AbstractTest
 {
