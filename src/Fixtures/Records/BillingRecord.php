@@ -3,7 +3,6 @@
 namespace Paytic\Payments\Tests\Fixtures\Records;
 
 use ByTIC\Payments\Models\BillingRecord\Traits\RecordTrait as BillingRecordTrait;
-use ByTIC\Common\Records\Traits\HasSerializedOptions\RecordTrait as HasSerializedOptions;
 use Nip\Records\AbstractModels\Record;
 
 /**
@@ -11,7 +10,6 @@ use Nip\Records\AbstractModels\Record;
  */
 class BillingRecord extends Record
 {
-    use HasSerializedOptions;
     use BillingRecordTrait;
 
     public $phone = '99';
