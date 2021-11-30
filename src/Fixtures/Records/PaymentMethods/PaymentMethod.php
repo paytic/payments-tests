@@ -3,7 +3,7 @@
 namespace Paytic\Payments\Tests\Fixtures\Records\PaymentMethods;
 
 use ByTIC\Payments\Models\Methods\Traits\RecordTrait as PaymentMethodTrait;
-use Nip\Records\AbstractModels\Record;
+use Nip\Records\Record;
 
 /**
  * Class PaymentMethod
