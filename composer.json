@@ -13,11 +13,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Paytic\\Payments\\Tests\\": "src/"
+      "Paytic\\Payments\\Tests\\": "src/",
+      "Paytic\\Payments\\Tests\\Codeception\\": "codeception/"
     }
   },
   "require": {
-    "php": "^7.1|^8.0",
+    "php": "^7.4|^8.0",
     "omnipay/tests": "^3|^4",
     "bytic/http": "^1.0",
     "bytic/dotenv": "^2.0|^4.0",
@@ -25,12 +26,14 @@
     "bytic/database": "^1.0",
     "bytic/orm-behaviors": "^1.0",
     "bytic/phpqatools": "^1.0",
-    "mockery/mockery": "^1.0",
+    "bytic/codeception": ">=4.1",
     "php-http/mock-client": "^1.0",
     "php-http/guzzle7-adapter": "^1.0"
   },
   "require-dev": {
     "bytic/payments": "^1.0",
     "vlucas/phpdotenv": "^4.0"
-  }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
 }
