@@ -19,7 +19,6 @@
   },
   "require": {
     "php": "^7.4|^8.0",
-    "omnipay/tests": "^3|^4",
     "bytic/http": "^1.0",
     "bytic/dotenv": "^2.0|^4.0",
     "bytic/translation": "^1.0",
@@ -29,6 +28,7 @@
     "bytic/codeception": ">=4.1"
   },
   "require-dev": {
+    "omnipay/tests": "^3|^4",
     "bytic/payments": "^1.0",
     "vlucas/phpdotenv": "^4.0"
   },
