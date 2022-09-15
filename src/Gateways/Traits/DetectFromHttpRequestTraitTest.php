@@ -2,7 +2,7 @@
 
 namespace Paytic\Payments\Tests\Gateways\Traits;
 
-use ByTIC\Payments\Gateways\Manager;
+use Paytic\Payments\Gateways\Manager;
 use Paytic\Payments\Tests\AbstractTest;
 use Paytic\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecord;
 use Paytic\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecordManager;
@@ -45,7 +45,7 @@ class DetectFromHttpRequestTraitTest extends AbstractTest
             [
                 PROJECT_BASE_PATH.'/vendor/paytic/omnipay-librapay/tests/fixtures/requests/completePurchaseParams.php',
                 \Paytic\Payments\Librapay\Message\CompletePurchaseRequest::class,
-                \ByTIC\Payments\Gateways\Providers\Librapay\Message\CompletePurchaseRequest::class,
+                \Paytic\Payments\Gateways\Providers\Librapay\Message\CompletePurchaseRequest::class,
             ],
             [
                 PROJECT_BASE_PATH.'/vendor/paytic/omnipay-librapay/tests/fixtures/requests/completePurchaseParams2.php',
@@ -53,15 +53,15 @@ class DetectFromHttpRequestTraitTest extends AbstractTest
             ],
             [
                 '/mobilpay/completePurchase/basicParams.php',
-                \ByTIC\Payments\Gateways\Providers\Mobilpay\Message\CompletePurchaseRequest::class,
+                \Paytic\Payments\Gateways\Providers\Mobilpay\Message\CompletePurchaseRequest::class,
             ],
             [
                 '/romcard/completePurchaseParams.php',
-                \ByTIC\Payments\Gateways\Providers\Romcard\Message\CompletePurchaseRequest::class,
+                \Paytic\Payments\Gateways\Providers\Romcard\Message\CompletePurchaseRequest::class,
             ],
             [
                 '/paylike/completePurchase/basicParams.php',
-                \ByTIC\Payments\Gateways\Providers\Paylike\Message\CompletePurchaseRequest::class,
+                \Paytic\Payments\Gateways\Providers\Paylike\Message\CompletePurchaseRequest::class,
             ],
         ];
     }

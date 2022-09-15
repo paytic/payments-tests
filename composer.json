@@ -29,9 +29,17 @@
   },
   "require-dev": {
     "omnipay/tests": "^3|^4",
-    "bytic/payments": "^1.0",
+    "paytic/payments": "^1.0",
     "vlucas/phpdotenv": "^4.0"
   },
   "prefer-stable": true,
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "ergebnis/composer-normalize": true,
+      "phpstan/extension-installer": true,
+      "bytic/phpqatools": true
+    }
+  }
 }

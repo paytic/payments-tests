@@ -2,7 +2,7 @@
 
 namespace Paytic\Payments\Tests\Codeception\Acceptance\Frontend\Gateways;
 
-use ByTIC\Payments\Utility\PaymentsModels;
+use Paytic\Payments\Utility\PaymentsModels;
 use Codeception\Actor;
 use Paytic\Payments\Tests\Fixtures\Records\Purchases\PurchasableRecord;
 
@@ -16,7 +16,7 @@ trait AbstractCestTrait
     /**
      * @param Actor $actor
      */
-    public function _before(Actor $actor)
+    public function _before($actor)
     {
         $this->preparePurchasableRecord($actor);
     }

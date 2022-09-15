@@ -2,7 +2,7 @@
 
 namespace Paytic\Payments\Tests\Fixtures\Records;
 
-use ByTIC\Payments\Models\BillingRecord\Traits\RecordTrait as BillingRecordTrait;
+use Paytic\Payments\Models\BillingRecord\Traits\RecordTrait as BillingRecordTrait;
 use Nip\Records\AbstractModels\Record;
 
 /**

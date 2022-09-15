@@ -11,7 +11,7 @@ $translator = Mockery::mock(\Nip\I18n\Translator::class)->shouldAllowMockingProt
 $translator->shouldReceive('persistLocale');
 
 $container->set('translator', $translator);
-$container->set('request', new \Nip\Request());
+$container->set('request', new \Nip\Http\Request());
 
 $manager = new DatabaseManager();
 $connection = new \Nip\Database\Connections\Connection(false);

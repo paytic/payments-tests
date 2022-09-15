@@ -2,7 +2,7 @@
 
 namespace Paytic\Payments\Tests\Gateways\Message;
 
-use ByTIC\Payments\Gateways\Providers\Euplatesc\Message\ServerCompletePurchaseResponse;
+use Paytic\Payments\Gateways\Providers\Euplatesc\Message\ServerCompletePurchaseResponse;
 
 /**
  * Trait ServerCompletePurchaseResponseTrait
