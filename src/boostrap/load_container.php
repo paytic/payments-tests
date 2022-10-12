@@ -18,6 +18,8 @@ $connection = new \Nip\Database\Connections\Connection(false);
 
 $adapter = \Mockery::mock(\Nip\Database\Adapters\MySQLi::class)->makePartial();
 $adapter->shouldReceive('cleanData')->andReturnArg(0);
+$adapter->shouldReceive('query');
+$adapter->shouldReceive('lastInsertID');
 
 $connection->setAdapter($adapter);
 $manager->setConnection($connection, 'main');
