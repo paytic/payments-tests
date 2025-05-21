@@ -19,12 +19,12 @@
   },
   "require": {
     "php": "^7.4|^8.0",
-    "bytic/http": "^1.0",
+    "bytic/http": "^1.0|^2.0",
     "bytic/dotenv": "^2.0|^4.0",
-    "bytic/translation": "^1.0",
-    "bytic/database": "^1.0",
-    "bytic/orm-behaviors": "^1.0",
-    "bytic/phpqatools": "^1.0",
+    "bytic/translation": "^1.0|^2.0",
+    "bytic/database": "^1.0|^2.0",
+    "bytic/orm-behaviors": "^1.0|^2.0",
+    "bytic/phpqatools": "^1.0|^2.0",
     "bytic/codeception": ">=4.1"
   },
   "require-dev": {
